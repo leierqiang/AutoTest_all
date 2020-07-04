@@ -6,8 +6,8 @@
 python -m pytest -vs case\登录\test_错误登录3_改为数据驱动并生成测试报告.py --html=./report/report.html --self-contained-html
 ```
 ## 3.测试目标-在这个网站下载并运行
-http://www.python3.vip/prac/pub/info/bysms/ 
-
+- http://www.python3.vip/prac/pub/info/bysms/ 
+- 初始界面 http://127.0.0.1/mgr/sign.html  byhy/88888888
 ## 4.注意
 根目录下的venv是环境，可以直接用
 
