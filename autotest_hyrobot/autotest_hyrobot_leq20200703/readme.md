@@ -21,3 +21,8 @@
 应该也是 robotframework 本身的bug。 
 
 参考 https://github.com/robotframework/robotframework/issues/3590
+---
+### 20200704笔记
+1. 目录结构
+- hyrobot - 库
+- lib - 公共方法
