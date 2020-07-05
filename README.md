@@ -5,7 +5,7 @@
 ## 2.安装依赖
 根据requests.txt安装必须的库
 ```
-pip isntall -r requests.txt
+pip install -r requirements.txt
 ```
 或直接使用venv，是基于python3.7的应该考下来能直接使用(我不确定)
 
