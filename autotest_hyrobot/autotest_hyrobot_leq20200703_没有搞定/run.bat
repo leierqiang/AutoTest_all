@@ -1,1 +1,0 @@
-python hyrobot\run.py %*

@@ -21,3 +21,5 @@ bin/
 *.bak
 *.log*
 log/
+venv_基于python3.7/
+
