@@ -7,7 +7,6 @@
 ```
 pip install -r requirements.txt
 ```
-或直接使用venv，是基于python3.7的应该考下来能直接使用(我不确定)
 
 ## 3.运行测试用例
 ```
