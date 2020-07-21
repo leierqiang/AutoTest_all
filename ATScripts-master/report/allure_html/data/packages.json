@@ -1,0 +1,105 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "scripts.test_case",
+    "children" : [ {
+      "name" : "cnblogs",
+      "uid" : "1a67772e871ac445",
+      "parentUid" : "d9450da9c5c1c515881f67c88d7d5055",
+      "status" : "failed",
+      "time" : {
+        "start" : 1575858805368,
+        "stop" : 1575858806174,
+        "duration" : 806
+      },
+      "flaky" : true,
+      "parameters" : [ "{'case_project': 'cnblogs', 'case_description': '博客园博客信息', 'case_url': 'https://www.cnblogs.com/Neeo/articles/11667962.html', 'case_method': 'get', 'case_params': '', 'case_expect': 'JavaScript - 过滤敏感字符 - 听雨危楼 - 博客园2', 'other': ''}" ]
+    }, {
+      "name" : "cnodejs项目",
+      "uid" : "e662eefa91e80eb5",
+      "parentUid" : "d9450da9c5c1c515881f67c88d7d5055",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595337249152,
+        "stop" : 1595337258660,
+        "duration" : 9508
+      },
+      "flaky" : false,
+      "parameters" : [ "{'case_project': 'cnodejs项目', 'case_description': 'get /topics 主题首页', 'case_url': 'https://cnodejs.org/api/v1/topics', 'case_method': 'get', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+    }, {
+      "name" : "cnodejs项目",
+      "uid" : "3a68da70aa4f38dc",
+      "parentUid" : "d9450da9c5c1c515881f67c88d7d5055",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595337258674,
+        "stop" : 1595337260088,
+        "duration" : 1414
+      },
+      "flaky" : false,
+      "parameters" : [ "{'case_project': 'cnodejs项目', 'case_description': 'get /topic/:id 主题详情', 'case_url': 'https://cnodejs.org/api/v1/topic/5433d5e4e737cbe96dcef312', 'case_method': 'get', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+    }, {
+      "name" : "cnodejs项目",
+      "uid" : "52113f95a1137a0",
+      "parentUid" : "d9450da9c5c1c515881f67c88d7d5055",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595337260106,
+        "stop" : 1595337263633,
+        "duration" : 3527
+      },
+      "flaky" : false,
+      "parameters" : [ "{'case_project': 'cnodejs项目', 'case_description': '/topic_collect/collect 收藏主题', 'case_url': 'https://cnodejs.org/api/v1/topic_collect/collect', 'case_method': 'post', 'case_params': '', 'case_expect': '{\"success\":false}', 'other': '咱们没有用户 accessToken，所以返回为false就算对'}" ]
+    }, {
+      "name" : "cnodejs项目",
+      "uid" : "17620d7505651d0a",
+      "parentUid" : "d9450da9c5c1c515881f67c88d7d5055",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595337263650,
+        "stop" : 1595337264519,
+        "duration" : 869
+      },
+      "flaky" : false,
+      "parameters" : [ "{'case_project': 'cnodejs项目', 'case_description': 'post /topic_collect/de_collect 取消主题', 'case_url': 'https://cnodejs.org/api/v1//topic_collect/de_collect', 'case_method': 'post', 'case_params': '', 'case_expect': '{\"success\":false}', 'other': '咱们没有用户 accessToken，所以返回为false就算对'}" ]
+    }, {
+      "name" : "cnodejs项目",
+      "uid" : "d0c6e6dff352201b",
+      "parentUid" : "d9450da9c5c1c515881f67c88d7d5055",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595337264535,
+        "stop" : 1595337265417,
+        "duration" : 882
+      },
+      "flaky" : false,
+      "parameters" : [ "{'case_project': 'cnodejs项目', 'case_description': '/user/:loginname 用户详情', 'case_url': 'https://cnodejs.org/api/v1/user/alsotang', 'case_method': 'get', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+    }, {
+      "name" : "cnodejs项目",
+      "uid" : "e5ad797cbdcc7fb6",
+      "parentUid" : "d9450da9c5c1c515881f67c88d7d5055",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595337265430,
+        "stop" : 1595337267899,
+        "duration" : 2469
+      },
+      "flaky" : false,
+      "parameters" : [ "{'case_project': 'cnodejs项目', 'case_description': '/message/mark_all 标记全部已读', 'case_url': 'https://cnodejs.org/api/v1/message/mark_all', 'case_method': 'post', 'case_params': '', 'case_expect': '{\"success\":false}', 'other': '咱们没有用户 accessToken，所以返回为false就算对'}" ]
+    }, {
+      "name" : "v2EX项目",
+      "uid" : "6be0bcdf42bf5aac",
+      "parentUid" : "d9450da9c5c1c515881f67c88d7d5055",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595337267905,
+        "stop" : 1595337281148,
+        "duration" : 13243
+      },
+      "flaky" : false,
+      "parameters" : [ "{'case_project': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_params': '', 'case_expect': '{\"title\":\"V2EX\"}', 'other': ''}" ]
+    } ],
+    "uid" : "scripts.test_case"
+  } ]
+}
