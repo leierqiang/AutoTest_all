@@ -1,0 +1,94 @@
+{
+  "uid" : "5b7340d014c2ede5",
+  "name" : "cnodejs项目",
+  "fullName" : "testcase.test_case.Test_case#test_case",
+  "historyId" : "3e6aedb6ef4b546562a7474d5f3d8f9f",
+  "time" : {
+    "start" : 1595344861242,
+    "stop" : 1595344863932,
+    "duration" : 2690
+  },
+  "description" : "<font color=\"red\">请求URL：</font>https://cnodejs.org/api/v1/message/mark_all<br /><font color=\"red\">期望值：</font>/message/mark_all 标记全部已读",
+  "descriptionHtml" : "<p><font color=\"red\">请求URL：</font>https://cnodejs.org/api/v1/message/mark_all<br /><font color=\"red\">期望值：</font>/message/mark_all 标记全部已读</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1595344836621,
+      "stop" : 1595344836621,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1595344866459,
+      "stop" : 1595344872052,
+      "duration" : 5593
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "cnodejs项目"
+  }, {
+    "name" : "story",
+    "value" : "post"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "Leq"
+  }, {
+    "name" : "thread",
+    "value" : "16352-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'case_project': 'cnodejs项目', 'case_description': '/message/mark_all 标记全部已读', 'case_url': 'https://cnodejs.org/api/v1/message/mark_all', 'case_method': 'post', 'case_params': '', 'case_expect': '{\"success\":false}', 'other': '咱们没有用户 accessToken，所以返回为false就算对'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5b7340d014c2ede5.json",
+  "parameterValues" : [ "{'case_project': 'cnodejs项目', 'case_description': '/message/mark_all 标记全部已读', 'case_url': 'https://cnodejs.org/api/v1/message/mark_all', 'case_method': 'post', 'case_params': '', 'case_expect': '{\"success\":false}', 'other': '咱们没有用户 accessToken，所以返回为false就算对'}" ]
+}

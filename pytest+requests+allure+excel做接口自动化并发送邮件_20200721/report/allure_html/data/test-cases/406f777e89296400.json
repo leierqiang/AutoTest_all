@@ -1,0 +1,75 @@
+{
+  "uid" : "406f777e89296400",
+  "name" : "test_case[case6]",
+  "fullName" : "testcase.test_case.Test_case#test_case",
+  "historyId" : "fe4f1a40124749bc6b6750ee38af5087",
+  "time" : {
+    "start" : 1595344006712,
+    "stop" : 1595344008023,
+    "duration" : 1311
+  },
+  "description" : "  执行断言 ",
+  "descriptionHtml" : "<p>执行断言</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "  执行断言 ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "668707af05a2def1",
+      "name" : "log",
+      "source" : "668707af05a2def1.txt",
+      "type" : "text/plain",
+      "size" : 95
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "Leq"
+  }, {
+    "name" : "thread",
+    "value" : "14944-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'case_project': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_params': '', 'case_expect': '{\"title\":\"V2EX\"}', 'other': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "406f777e89296400.json",
+  "parameterValues" : [ "{'case_project': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_params': '', 'case_expect': '{\"title\":\"V2EX\"}', 'other': ''}" ]
+}

@@ -1,0 +1,163 @@
+{
+  "uid" : "cc58892f47dca34",
+  "name" : "v2EX项目",
+  "fullName" : "testcase.test_case.Test_case#test_case",
+  "historyId" : "fe4f1a40124749bc6b6750ee38af5087",
+  "time" : {
+    "start" : 1595345407380,
+    "stop" : 1595345410864,
+    "duration" : 3484
+  },
+  "description" : "<font color=\"red\">请求URL：</font>https://www.v2ex.com/api/site/info.json<br /><font color=\"red\">期望值：</font>获取网站信息",
+  "descriptionHtml" : "<p><font color=\"red\">请求URL：</font>https://www.v2ex.com/api/site/info.json<br /><font color=\"red\">期望值：</font>获取网站信息</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color=\"red\">请求URL：</font>https://www.v2ex.com/api/site/info.json<br /><font color=\"red\">期望值：</font>获取网站信息",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e6e9b3da5fa43166",
+      "name" : "log",
+      "source" : "e6e9b3da5fa43166.txt",
+      "type" : "text/plain",
+      "size" : 95
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "v2EX项目"
+  }, {
+    "name" : "story",
+    "value" : "get"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "Leq"
+  }, {
+    "name" : "thread",
+    "value" : "4424-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'case_project': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_params': '', 'case_expect': '{\"title\":\"V2EX\"}', 'other': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c42138a9892b9c48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595345011296,
+        "stop" : 1595345014188,
+        "duration" : 2892
+      }
+    }, {
+      "uid" : "411e63cd68252d18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595344928733,
+        "stop" : 1595344930855,
+        "duration" : 2122
+      }
+    }, {
+      "uid" : "d013b0434b6d6f1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595344863937,
+        "stop" : 1595344866268,
+        "duration" : 2331
+      }
+    }, {
+      "uid" : "44c311e0682877f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595344440301,
+        "stop" : 1595344451543,
+        "duration" : 11242
+      }
+    }, {
+      "uid" : "cf986a9584f80fa4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595344226284,
+        "stop" : 1595344230052,
+        "duration" : 3768
+      }
+    }, {
+      "uid" : "a4fd13232eeb5313",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595344064414,
+        "stop" : 1595344068707,
+        "duration" : 4293
+      }
+    }, {
+      "uid" : "406f777e89296400",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595344006712,
+        "stop" : 1595344008023,
+        "duration" : 1311
+      }
+    }, {
+      "uid" : "434f18c86f77deed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595343900149,
+        "stop" : 1595343900149,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5136784718cccab4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595343862633,
+        "stop" : 1595343862633,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c8e289a46e235ebf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595343566516,
+        "stop" : 1595343571923,
+        "duration" : 5407
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cc58892f47dca34.json",
+  "parameterValues" : [ "{'case_project': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_params': '', 'case_expect': '{\"title\":\"V2EX\"}', 'other': ''}" ]
+}

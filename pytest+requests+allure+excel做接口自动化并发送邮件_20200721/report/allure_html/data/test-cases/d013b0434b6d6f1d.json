@@ -1,0 +1,94 @@
+{
+  "uid" : "d013b0434b6d6f1d",
+  "name" : "v2EX项目",
+  "fullName" : "testcase.test_case.Test_case#test_case",
+  "historyId" : "fe4f1a40124749bc6b6750ee38af5087",
+  "time" : {
+    "start" : 1595344863937,
+    "stop" : 1595344866268,
+    "duration" : 2331
+  },
+  "description" : "<font color=\"red\">请求URL：</font>https://www.v2ex.com/api/site/info.json<br /><font color=\"red\">期望值：</font>获取网站信息",
+  "descriptionHtml" : "<p><font color=\"red\">请求URL：</font>https://www.v2ex.com/api/site/info.json<br /><font color=\"red\">期望值：</font>获取网站信息</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1595344836621,
+      "stop" : 1595344836621,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1595344866459,
+      "stop" : 1595344872052,
+      "duration" : 5593
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "v2EX项目"
+  }, {
+    "name" : "story",
+    "value" : "get"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "Leq"
+  }, {
+    "name" : "thread",
+    "value" : "16352-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'case_project': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_params': '', 'case_expect': '{\"title\":\"V2EX\"}', 'other': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d013b0434b6d6f1d.json",
+  "parameterValues" : [ "{'case_project': 'v2EX项目', 'case_description': '获取网站信息', 'case_url': 'https://www.v2ex.com/api/site/info.json', 'case_method': 'get', 'case_params': '', 'case_expect': '{\"title\":\"V2EX\"}', 'other': ''}" ]
+}

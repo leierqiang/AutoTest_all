@@ -1,0 +1,94 @@
+{
+  "uid" : "10ea1b0fbe514a1c",
+  "name" : "cnblogs",
+  "fullName" : "testcase.test_case.Test_case#test_case",
+  "historyId" : "4e1ac513447e430793d8d2e9fb6c9ef5",
+  "time" : {
+    "start" : 1595343571930,
+    "stop" : 1595343572154,
+    "duration" : 224
+  },
+  "description" : "<font color=\"red\">请求URL：</font>https://www.cnblogs.com/Neeo/articles/11667962.html<br /><font color=\"red\">期望值：</font>博客园博客信息",
+  "descriptionHtml" : "<p><font color=\"red\">请求URL：</font>https://www.cnblogs.com/Neeo/articles/11667962.html<br /><font color=\"red\">期望值：</font>博客园博客信息</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1595343547993,
+      "stop" : 1595343547993,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1595343572156,
+      "stop" : 1595343575918,
+      "duration" : 3762
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "cnblogs"
+  }, {
+    "name" : "story",
+    "value" : "get"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "Leq"
+  }, {
+    "name" : "thread",
+    "value" : "15252-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'case_project': 'cnblogs', 'case_description': '博客园博客信息', 'case_url': 'https://www.cnblogs.com/Neeo/articles/11667962.html', 'case_method': 'get', 'case_params': '', 'case_expect': 'JavaScript - 过滤敏感字符 - 听雨危楼 - 博客园', 'other': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "10ea1b0fbe514a1c.json",
+  "parameterValues" : [ "{'case_project': 'cnblogs', 'case_description': '博客园博客信息', 'case_url': 'https://www.cnblogs.com/Neeo/articles/11667962.html', 'case_method': 'get', 'case_params': '', 'case_expect': 'JavaScript - 过滤敏感字符 - 听雨危楼 - 博客园', 'other': ''}" ]
+}

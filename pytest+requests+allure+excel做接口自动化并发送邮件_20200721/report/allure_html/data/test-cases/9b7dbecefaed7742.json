@@ -1,0 +1,163 @@
+{
+  "uid" : "9b7dbecefaed7742",
+  "name" : "cnodejs项目",
+  "fullName" : "testcase.test_case.Test_case#test_case",
+  "historyId" : "3e6aedb6ef4b546562a7474d5f3d8f9f",
+  "time" : {
+    "start" : 1595345406627,
+    "stop" : 1595345407372,
+    "duration" : 745
+  },
+  "description" : "<font color=\"red\">请求URL：</font>https://cnodejs.org/api/v1/message/mark_all<br /><font color=\"red\">期望值：</font>/message/mark_all 标记全部已读",
+  "descriptionHtml" : "<p><font color=\"red\">请求URL：</font>https://cnodejs.org/api/v1/message/mark_all<br /><font color=\"red\">期望值：</font>/message/mark_all 标记全部已读</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color=\"red\">请求URL：</font>https://cnodejs.org/api/v1/message/mark_all<br /><font color=\"red\">期望值：</font>/message/mark_all 标记全部已读",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5963d35a5787160b",
+      "name" : "log",
+      "source" : "5963d35a5787160b.txt",
+      "type" : "text/plain",
+      "size" : 99
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "cnodejs项目"
+  }, {
+    "name" : "story",
+    "value" : "post"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "Leq"
+  }, {
+    "name" : "thread",
+    "value" : "4424-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'case_project': 'cnodejs项目', 'case_description': '/message/mark_all 标记全部已读', 'case_url': 'https://cnodejs.org/api/v1/message/mark_all', 'case_method': 'post', 'case_params': '', 'case_expect': '{\"success\":false}', 'other': '咱们没有用户 accessToken，所以返回为false就算对'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "693ea7699c175067",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595345009725,
+        "stop" : 1595345011275,
+        "duration" : 1550
+      }
+    }, {
+      "uid" : "3f2742e5f294655c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595344926829,
+        "stop" : 1595344928729,
+        "duration" : 1900
+      }
+    }, {
+      "uid" : "5b7340d014c2ede5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595344861242,
+        "stop" : 1595344863932,
+        "duration" : 2690
+      }
+    }, {
+      "uid" : "4bbfdcad7363784f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595344437806,
+        "stop" : 1595344440287,
+        "duration" : 2481
+      }
+    }, {
+      "uid" : "4da9b57d7155a235",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595344224826,
+        "stop" : 1595344226263,
+        "duration" : 1437
+      }
+    }, {
+      "uid" : "97c2aba5ccf8ddf5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595344063625,
+        "stop" : 1595344064393,
+        "duration" : 768
+      }
+    }, {
+      "uid" : "23f5e4dda6d64f20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595344004394,
+        "stop" : 1595344006706,
+        "duration" : 2312
+      }
+    }, {
+      "uid" : "809da709c9753ec8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595343900145,
+        "stop" : 1595343900145,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "229b84fc682d1a97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595343862630,
+        "stop" : 1595343862630,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6589a28ed7266df0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595343564442,
+        "stop" : 1595343566505,
+        "duration" : 2063
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9b7dbecefaed7742.json",
+  "parameterValues" : [ "{'case_project': 'cnodejs项目', 'case_description': '/message/mark_all 标记全部已读', 'case_url': 'https://cnodejs.org/api/v1/message/mark_all', 'case_method': 'post', 'case_params': '', 'case_expect': '{\"success\":false}', 'other': '咱们没有用户 accessToken，所以返回为false就算对'}" ]
+}

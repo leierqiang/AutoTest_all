@@ -1,0 +1,75 @@
+{
+  "uid" : "cdee8b0017254113",
+  "name" : "test_case[case3]",
+  "fullName" : "testcase.test_case.Test_case#test_case",
+  "historyId" : "ead3248e0fa34e44be603e3207b87248",
+  "time" : {
+    "start" : 1595344060644,
+    "stop" : 1595344062418,
+    "duration" : 1774
+  },
+  "description" : "  执行断言 ",
+  "descriptionHtml" : "<p>执行断言</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "  执行断言 ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "222e0faf274bbae5",
+      "name" : "log",
+      "source" : "222e0faf274bbae5.txt",
+      "type" : "text/plain",
+      "size" : 108
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "Leq"
+  }, {
+    "name" : "thread",
+    "value" : "7128-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'case_project': 'cnodejs项目', 'case_description': 'post /topic_collect/de_collect 取消主题', 'case_url': 'https://cnodejs.org/api/v1//topic_collect/de_collect', 'case_method': 'post', 'case_params': '', 'case_expect': '{\"success\":false}', 'other': '咱们没有用户 accessToken，所以返回为false就算对'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cdee8b0017254113.json",
+  "parameterValues" : [ "{'case_project': 'cnodejs项目', 'case_description': 'post /topic_collect/de_collect 取消主题', 'case_url': 'https://cnodejs.org/api/v1//topic_collect/de_collect', 'case_method': 'post', 'case_params': '', 'case_expect': '{\"success\":false}', 'other': '咱们没有用户 accessToken，所以返回为false就算对'}" ]
+}
