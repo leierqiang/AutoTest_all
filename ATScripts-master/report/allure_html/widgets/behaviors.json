@@ -1,17 +1,6 @@
 {
-  "total" : 3,
+  "total" : 2,
   "items" : [ {
-    "uid" : "5a9e06ea9a55a0c2db5d7b89774fc7db",
-    "name" : "cnblogs",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
     "uid" : "2784ba2799df9b1a927751efc7413209",
     "name" : "cnodejs项目",
     "statistic" : {
