@@ -8,7 +8,7 @@ BASE_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # 脚本路径
 file_path = '接口测试示例.xlsx'
-TEST_CASE_PATH = os.path.join(BASE_PATH, 'data', file_path)
+TEST_CASE_PATH = os.path.join(BASE_PATH, 'exceldata', file_path)
 
 # 报告路径
 TEST_CASE_REPORT_PATH = os.path.join(BASE_PATH, 'report', 'report.html')

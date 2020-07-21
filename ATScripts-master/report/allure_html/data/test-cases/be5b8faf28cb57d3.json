@@ -1,0 +1,107 @@
+{
+  "uid" : "be5b8faf28cb57d3",
+  "name" : "cnodejs项目",
+  "fullName" : "testcase.test_case.Test_case#test_case",
+  "historyId" : "7e05dd2a6304cdb457aa8665a78d8b00",
+  "time" : {
+    "start" : 1595341123878,
+    "stop" : 1595341129077,
+    "duration" : 5199
+  },
+  "description" : "<font color=\"red\">请求URL：</font>https://cnodejs.org/api/v1/user/alsotang<br /><font color=\"red\">期望值：</font>/user/:loginname 用户详情",
+  "descriptionHtml" : "<p><font color=\"red\">请求URL：</font>https://cnodejs.org/api/v1/user/alsotang<br /><font color=\"red\">期望值：</font>/user/:loginname 用户详情</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "<font color=\"red\">请求URL：</font>https://cnodejs.org/api/v1/user/alsotang<br /><font color=\"red\">期望值：</font>/user/:loginname 用户详情",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "68638a2198551533",
+      "name" : "log",
+      "source" : "68638a2198551533.txt",
+      "type" : "text/plain",
+      "size" : 96
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "cnodejs项目"
+  }, {
+    "name" : "story",
+    "value" : "get"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "Leq"
+  }, {
+    "name" : "thread",
+    "value" : "16284-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'case_project': 'cnodejs项目', 'case_description': '/user/:loginname 用户详情', 'case_url': 'https://cnodejs.org/api/v1/user/alsotang', 'case_method': 'get', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c52674cebcbc0374",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595340390422,
+        "stop" : 1595340392572,
+        "duration" : 2150
+      }
+    }, {
+      "uid" : "96c020dde73c88b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595340275104,
+        "stop" : 1595340281911,
+        "duration" : 6807
+      }
+    }, {
+      "uid" : "cd4def2c363cb336",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595340201530,
+        "stop" : 1595340204531,
+        "duration" : 3001
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "be5b8faf28cb57d3.json",
+  "parameterValues" : [ "{'case_project': 'cnodejs项目', 'case_description': '/user/:loginname 用户详情', 'case_url': 'https://cnodejs.org/api/v1/user/alsotang', 'case_method': 'get', 'case_params': '', 'case_expect': '{\"success\":true}', 'other': ''}" ]
+}
