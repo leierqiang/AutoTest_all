@@ -40,4 +40,4 @@ class Test_case(object):
 
         AllureHandler().execute_command()
         # 发邮件
-        EmailHandler().send_email()
+        # EmailHandler().send_email()
